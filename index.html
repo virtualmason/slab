@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sponser Me</title>
+    <title>Floyd Orr Built With Css, HTML And Bootstrap</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/myVideo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
   
@@ -27,95 +28,59 @@
   <body>
     <!--nav bar on top of page-->
 
-<div class="container-fluid">
-
-    <!--2nd nave bare-->
-    <nav class="navbar navbar-default navbar-inverse" >
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only"> Toggle navigation</span>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Floyd Orr, Web Developer </a>
+      <a class="navbar-brand" href="#">F / O</a>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-
         <li class="active"><a href="#API">API's <span class="sr-only">(current)</span></a></li>
         <li><a href="#Frame Works">Frame Works</a></li>
-         <li><a href="#Live Sites">Live Sites</a></li>
-          <li><a href="#Algorithims">Algorithims</a></li>
-           <li><a href="#Projects">Projects</a></li>
-        
+        <li><a href="#Live Sites">Live Sites</a></li>
+        <li><a href="#Live Sites">Live Sites</a></li>
+        <li><a href="#Algorithims">Algorithims</a></li>
+        <li><a href="#Social Media">Social Media</a></li>
       </ul>
-      <span id="top"><a name="top"></span>
-     
-    </div><!-- navbar-collapse -->
-  </div><!-- container-fluid -->
+    </div>
+  </div>
 </nav>
 
 
 
 
 
-<!--underthis video-->
 
 
-
-
-
-        <div class ="header-container">
-    <div class ="video-container">
-         <video preload = "true" autoplay ="autoplay" loop = "loop" volume ="0" poster = "PC-Typing.jpg" id ="#video-bg" >
-          <source src ="video/PC-Typing.mp4"  type = "video/mp4" >
-          <source src ="video/PC-Typing.webm"  type ="video/webm">
-          <source src ="video/PC-Typing.ogv"  type ="video/ogg" >
-           
-         </video>
-       </div>
-
- <form class="form-horizontal Aligner" role="form">
-    <div class="form-group Aligner-item">
-      <label class="control-label col-sm-2 " for="email" >Email:</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control " id="email" placeholder="Enter email." required>
-      </div>
+<div id="video">
+  <video preload="true" autoplay="autoplay" loop="loop" volume="0" poster="pic/PC-Typing.jpg" id="#video-bg">
+    <source src="video/Push-The-Buttons.webm" type="video/webm">
+    <source src="video/Push-The-Buttons.mp4" type= "video/mp4">
+    <source src="video/Push-The-Buttons.ogv" type="video/ogg">
+  </video>
+</div>
+<div class="outer">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="text-left">Floyd Orr</h1>
+      <hr />
+      <p class="text-right">Engineer | Software Developer | Book Worm | Wilderness Survival Specialist</p>
     </div>
-    <div class="form-group Aligner-item">
-      <label class="control-label col-sm-2 " for="pwd">Project:</label>
-      <div class="col-sm-10">          
-        <input type="text" class="form-control " id="pwd" placeholder="Tell me about you web development project." required>
-      </div>
-    </div>
-    
-    <div class="form-group Aligner-item">        
-      <div class="col-sm-offset-2 col-sm-10 ">
-        <button type="submit" class="btn btn-default Aligner-item">Submit</button>
-      </div>
-      </form>
-    </div>
- 
- 
-
-</div> <!--end flex container-->
-
- </div><!-- end of header container-->
-
-
-  
-
+  </div>
+</div>
+<!--video-->
 
   <!--under  group 1 this body circles ect-->
     
   
     <div class="container">
-      <h1 class="text-center" id="API"><a name="API">API's</a></h1>
+          <h1 class="text-center" id="API"><a name="API">API's</a></h1>
 <row>
   <div class="text-center">
        <a href="#top">top</a>
@@ -123,23 +88,22 @@
 </row>
     <div class="row text-center">
       <div class="col-md-4 img-responsive">
-        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project1">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
+        <img src="pics/api1.png" data-toggle="modal" data-target="#project1">
+          <h4>Map, Article API</h4>
       </div>
       <div class="col-md-4 img-responsive">
-        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>     </div>
+        <i class="fa fa-quote-right fa-5x " data-toggle ="modal" data-target="#project2"></i>
+        <h4>Random Quote Machine</h4>
+         </div>
         
         
     
       <div class="col-md-4 img-responsive">
-        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
+          <i class="fa fa-sun-o fa-5x" data-toggle="modal" data-target="#project3"></i>
+        <h4>Weather API</h4>
+        
       </div>
-      </div>
+     
       
       
       
@@ -153,11 +117,11 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        <h4 class="modal-title" id="myModalLabel">Mixed Api</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="http://placehold.it/300x300" >
-        This was my first project in this class. I learned a lot about HTML and CSS.
+        <img class="img-responsive" src="pics/api1.png" >
+       <a href="http://www.floydorr.com/mapApi/" target="blank"> This api used Google maps, wikipedia's api and The New York Times Union's api. When you enter an address, a map of the location shows in the background and articles are shown about the location.</br>Click here</a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -171,11 +135,11 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        <h4 class="modal-title" id="myModalLabel">Random Qote Machine</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="http://placehold.it/300x300" >
-        This was a to do list that I made.
+       <i class="fa fa-quote-right fa-5x "></i>
+      <p><a href ="http://codepen.io/virtualmason/pen/EPevxV">When you click the button a random design quote is displayed and you can tweet it out.It uses bootstrap and an api<br>click here</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -188,11 +152,11 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        <h4 class="modal-title" id="myModalLabel">Weather APIe</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="http://placehold.it/300x300" >
-        This was a project using Knockout framwork that I built.
+          <i class="fa fa-sun-o fa-5x "></i>
+        <p><a href ="http://codepen.io/virtualmason/pen/NxBJZE">When you click button the tempature is displayed in Cedar Rapids Ia, and a picture icon of current weather is shown.You can choose which unit to display the temperature in <br>click here</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -215,9 +179,9 @@
 </row>
     <div class="row text-center">
       <div class="col-md-4 img-responsive">
-        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project1">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
+        <i class="fa fa-search fa-5x " data-toggle="modal" data-target="#wiki"></i>
+        <h3>Wikipedia Search Machine</h3>
+        
       </div>
       <div class="col-md-4 img-responsive">
         <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
@@ -241,15 +205,15 @@
       
     
      
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="wiki" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        <h4 class="modal-title" id="myModalLabel">Wikipedia Search Machine</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="http://placehold.it/300x300" >
-        This was my first project in this class. I learned a lot about HTML and CSS.
+         <i class="fa fa-search fa-5x "></i>
+        <a href="http://codepen.io/virtualmason/pen/QyXazy">This was a fun project making it so someone can search for an article or do a random search.<br>click here</a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1021,7 +985,7 @@
 <!--leave above this line, new under-->
 <!--group  11 modal- projets -->
 <div class="container">
-      <h1 class="text-center" id="Projects"><a name="Projects"></a>Projects</h1>
+      <h1 class="text-center" id="Social Media"><a name="Social Media"></a>Social Media</h1>
 <row>
   <div class="text-center">
        <a href="#top">top</a>
@@ -1029,9 +993,9 @@
 </row>
     <div class="row text-center">
       <div class="col-md-4 img-responsive">
-        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/256px-Octicons-mark-github.svg.png"  width="256" alt="Octicons-mark-github"  data-toggle="modal" data-target="#git"/>
         <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
+        <p>Git Hub</p>
       </div>
       <div class="col-md-4 img-responsive">
         <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
@@ -1055,15 +1019,15 @@
       
     
      
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="git" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        <h4 class="modal-title" id="myModalLabel">This is my Git Hub Profile</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="http://placehold.it/300x300" >
-        This was my first project in this class. I learned a lot about HTML and CSS.
+        <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/256px-Octicons-mark-github.svg.png"  width="256" alt="Octicons-mark-github">
+        <a href ="https://github.com/virtualmason" target="blank">Click here to visit my Git hub profile.</a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1199,7 +1163,12 @@
 </div>
 </div>
 
-
+<div class=" coantiner text-center ">
+<div class="nav bottom navbar-inverse">
+<p class="white">All rights reservied </p>
+<a href="#top">top</a>
+</div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
